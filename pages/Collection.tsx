@@ -20,7 +20,7 @@ export const Collection: React.FC = () => {
     : 'https://picsum.photos/1920/600?random=21';
 
   return (
-    <div className="pt-20 bg-brand-gray min-h-screen">
+    <div className="pt-20 bg-white min-h-screen">
       {/* Header */}
       <div className="relative h-64 md:h-96 w-full overflow-hidden bg-brand-black">
          <img src={heroImage} alt={title} className="w-full h-full object-cover opacity-60" />

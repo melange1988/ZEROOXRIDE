@@ -44,7 +44,7 @@ export const Navbar: React.FC = () => {
               Ride On Toys
             </Link>
             <Link to="/about" className={`font-medium font-serif tracking-wide hover:text-brand-orange transition-colors ${scrolled ? 'text-brand-black' : 'text-white'}`}>
-              La Vie ZEROOX
+              Why ZEROOX?
             </Link>
             <Link to="/dealer" className={`font-medium font-serif tracking-wide hover:text-brand-orange transition-colors ${scrolled ? 'text-brand-black' : 'text-white'}`}>
               Dealers
@@ -91,7 +91,7 @@ export const Navbar: React.FC = () => {
           <Link to="/" className="text-2xl font-serif font-medium text-brand-black border-b border-brand-orange/20 pb-4">Home</Link>
           <Link to="/collection/dirt-bike" className="text-2xl font-serif font-medium text-brand-black border-b border-brand-orange/20 pb-4">Dirt Bikes</Link>
           <Link to="/collection/ride-on" className="text-2xl font-serif font-medium text-brand-black border-b border-brand-orange/20 pb-4">Ride On Toys</Link>
-          <Link to="/about" className="text-2xl font-serif font-medium text-brand-black border-b border-brand-orange/20 pb-4">La Vie ZEROOX</Link>
+          <Link to="/about" className="text-2xl font-serif font-medium text-brand-black border-b border-brand-orange/20 pb-4">Why ZEROOX?</Link>
           <Link to="/dealer" className="text-2xl font-serif font-medium text-brand-black border-b border-brand-orange/20 pb-4">Become a Dealer</Link>
           <Link to="/contact" className="text-2xl font-serif font-medium text-brand-black border-b border-brand-orange/20 pb-4">Contact Us</Link>
           <div className="pt-4 flex items-center space-x-2 text-gray-600">

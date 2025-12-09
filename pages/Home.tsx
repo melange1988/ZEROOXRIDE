@@ -8,7 +8,7 @@ export const Home: React.FC = () => {
   const dirtBikes = PRODUCTS.filter(p => p.category === 'dirt-bike');
 
   return (
-    <div className="bg-brand-gray">
+    <div className="bg-white">
       {/* Hero Section */}
       <div className="relative h-screen w-full overflow-hidden">
         {/* Background Image */}
@@ -25,7 +25,7 @@ export const Home: React.FC = () => {
         <div className="relative h-full flex items-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
           <div className="max-w-2xl text-white">
             <span className="inline-block py-1 px-4 rounded-full bg-brand-orange text-brand-black border border-brand-orange mb-6 font-bold tracking-wide text-xs uppercase font-sans">
-              Été 2024 Collection
+              Summer 2024 Collection
             </span>
             <h1 className="text-5xl md:text-8xl font-serif font-medium tracking-tight mb-6 leading-[0.9]">
               Sun. Speed. <br />
@@ -73,7 +73,7 @@ export const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row md:justify-between md:items-end mb-16 text-center md:text-left">
             <div>
-              <h2 className="text-4xl md:text-5xl font-serif font-medium text-brand-black mb-4">Le Best Sellers</h2>
+              <h2 className="text-4xl md:text-5xl font-serif font-medium text-brand-black mb-4">Best Sellers</h2>
               <p className="text-gray-500 font-light text-lg">Discover the bikes creating waves this season.</p>
             </div>
             <Link to="/collection/dirt-bike" className="hidden md:flex items-center text-brand-black font-bold hover:text-brand-orange transition-colors border-b-2 border-brand-orange pb-1">
@@ -89,7 +89,7 @@ export const Home: React.FC = () => {
              <div className="relative group overflow-hidden rounded-2xl bg-brand-black flex items-center justify-center aspect-[4/5] md:aspect-auto">
                 <img src="https://picsum.photos/600/800?random=50" alt="Accessories" className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity mix-blend-overlay" />
                 <div className="relative z-10 text-center p-6">
-                  <h3 className="text-3xl font-serif text-white mb-4 italic">Le Gear</h3>
+                  <h3 className="text-3xl font-serif text-white mb-4 italic">The Gear</h3>
                   <p className="text-gray-300 mb-8 font-light">Helmets, gloves, and safety essentials.</p>
                   <button className="px-8 py-3 border border-brand-orange text-brand-orange rounded-full hover:bg-brand-orange hover:text-brand-black transition-colors font-bold uppercase text-sm tracking-wider">
                     Coming Soon
@@ -135,14 +135,14 @@ export const Home: React.FC = () => {
       {/* Reviews / Social Proof - Updated to South France Style */}
       <div className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-4 text-center">
-           <h2 className="text-3xl md:text-4xl font-serif text-brand-black mb-16 italic">Stories from the Riviera</h2>
+           <h2 className="text-3xl md:text-4xl font-serif text-brand-black mb-16 italic">Stories from the Trail</h2>
            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[1, 2, 3].map((i) => (
                 <div key={i} className="bg-brand-gray p-10 rounded-t-full rounded-b-2xl text-center border border-brand-orange/10 hover:shadow-lg transition-shadow">
                   <div className="flex justify-center space-x-1 mb-6">
                     {[1, 2, 3, 4, 5].map(s => <Star key={s} className="h-4 w-4 text-brand-orange fill-current" />)}
                   </div>
-                  <p className="text-brand-black mb-8 italic font-serif text-lg">"The Zeroox X-Treme is absolutely amazing. My 7-year-old learned to ride in a day thanks to the speed limiter. C'est magnifique!"</p>
+                  <p className="text-brand-black mb-8 italic font-serif text-lg">"The Zeroox X-Treme is absolutely amazing. My 7-year-old learned to ride in a day thanks to the speed limiter. It's magnificent!"</p>
                   <div className="flex flex-col items-center">
                     <div className="h-12 w-12 rounded-full bg-brand-orange/20 mb-3 flex items-center justify-center text-brand-black font-serif font-bold">SJ</div>
                     <div>
@@ -162,7 +162,7 @@ export const Home: React.FC = () => {
            <div className="flex flex-col md:flex-row items-center gap-16">
              <div className="flex-1 order-2 md:order-1">
                 <span className="text-brand-black/60 font-bold tracking-widest uppercase text-xs mb-4 block">Our Heritage</span>
-                <h2 className="text-4xl md:text-6xl font-serif font-medium text-brand-black mb-8">Engineered for <br/><i>Joie de Vivre</i></h2>
+                <h2 className="text-4xl md:text-6xl font-serif font-medium text-brand-black mb-8">Engineered for <br/><i>Pure Joy</i></h2>
                 <p className="text-brand-black/80 text-lg leading-relaxed mb-6 font-medium">
                   ZEROOX wasn't just built to sell toys; it was built to ignite a lifelong passion for riding. We recognized a gap between plastic department store toys and dangerous gas-powered bikes. 
                 </p>

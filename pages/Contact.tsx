@@ -3,9 +3,9 @@ import { Mail, MapPin, Phone, MessageSquare } from 'lucide-react';
 
 export const Contact: React.FC = () => {
   return (
-    <div className="bg-brand-gray pt-20">
+    <div className="bg-white pt-20">
        <div className="bg-brand-black text-white py-24 text-center">
-           <h1 className="text-4xl md:text-6xl font-serif font-medium mb-4">Bonjour!</h1>
+           <h1 className="text-4xl md:text-6xl font-serif font-medium mb-4">Hello!</h1>
            <p className="text-xl text-gray-400 font-light">Questions about your order or our products? Let's chat.</p>
        </div>
 

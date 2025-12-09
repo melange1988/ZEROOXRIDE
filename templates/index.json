@@ -3,13 +3,13 @@
     "hero": {
       "type": "hero-banner",
       "settings": {
-        "pill_text": "Été 2024 Collection"
+        "pill_text": "Summer 2024 Collection"
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Le Best Sellers",
+        "title": "Best Sellers",
         "limit": 3
       }
     }

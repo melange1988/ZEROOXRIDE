@@ -8,6 +8,7 @@ import { ProductDetail } from './pages/ProductDetail';
 import { About } from './pages/About';
 import { Dealer } from './pages/Dealer';
 import { Contact } from './pages/Contact';
+import { Warranty } from './pages/Warranty';
 
 // Wrapper to handle scroll to top on route change
 const ScrollToTop = () => {
@@ -24,7 +25,7 @@ const App: React.FC = () => {
   return (
     <Router>
       <ScrollToTop />
-      <div className="flex flex-col min-h-screen bg-brand-gray text-brand-black font-sans selection:bg-brand-orange selection:text-brand-black">
+      <div className="flex flex-col min-h-screen bg-white text-brand-black font-sans selection:bg-brand-orange selection:text-brand-black">
         <Navbar />
         <main className="flex-grow">
           <Routes>
@@ -34,6 +35,7 @@ const App: React.FC = () => {
             <Route path="/about" element={<About />} />
             <Route path="/dealer" element={<Dealer />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/warranty" element={<Warranty />} />
           </Routes>
         </main>
         <Footer />

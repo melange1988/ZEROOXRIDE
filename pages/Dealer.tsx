@@ -3,7 +3,7 @@ import { TrendingUp, Users, Map, CheckCircle } from 'lucide-react';
 
 export const Dealer: React.FC = () => {
   return (
-    <div className="bg-brand-gray pt-20">
+    <div className="bg-white pt-20">
       {/* Hero Section */}
       <div className="relative bg-brand-black text-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">

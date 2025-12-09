@@ -138,7 +138,7 @@ export const ProductDetail: React.FC = () => {
   }
 
   return (
-    <div className="bg-brand-gray pt-24 pb-16">
+    <div className="bg-white pt-24 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-x-12">
           

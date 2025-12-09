@@ -1,5 +1,6 @@
 import React from 'react';
 import { Facebook, Instagram, Twitter, Youtube, Mail } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export const Footer: React.FC = () => {
   return (
@@ -27,8 +28,8 @@ export const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-serif font-bold mb-6 text-brand-orange">Collection</h3>
             <ul className="space-y-3 text-gray-300">
-              <li><a href="#/collection/dirt-bike" className="hover:text-brand-orange transition-colors">Electric Dirt Bikes</a></li>
-              <li><a href="#/collection/ride-on" className="hover:text-brand-orange transition-colors">Ride On Toys</a></li>
+              <li><Link to="/collection/dirt-bike" className="hover:text-brand-orange transition-colors">Electric Dirt Bikes</Link></li>
+              <li><Link to="/collection/ride-on" className="hover:text-brand-orange transition-colors">Ride On Toys</Link></li>
               <li><a href="#" className="hover:text-brand-orange transition-colors">Accessories</a></li>
               <li><a href="#" className="hover:text-brand-orange transition-colors">Replacement Parts</a></li>
             </ul>
@@ -39,9 +40,9 @@ export const Footer: React.FC = () => {
             <h3 className="text-lg font-serif font-bold mb-6 text-brand-orange">Support</h3>
             <ul className="space-y-3 text-gray-300">
               <li><a href="#" className="hover:text-brand-orange transition-colors">Owner's Manuals</a></li>
-              <li><a href="#" className="hover:text-brand-orange transition-colors">Warranty & Returns</a></li>
+              <li><Link to="/warranty" className="hover:text-brand-orange transition-colors">Warranty & Returns</Link></li>
               <li><a href="#" className="hover:text-brand-orange transition-colors">Shipping Info</a></li>
-              <li><a href="#" className="hover:text-brand-orange transition-colors">Contact Us</a></li>
+              <li><Link to="/contact" className="hover:text-brand-orange transition-colors">Contact Us</Link></li>
               <li><a href="#" className="hover:text-brand-orange transition-colors">FAQs</a></li>
             </ul>
           </div>

@@ -3,7 +3,7 @@ import { ShieldCheck, Leaf, Zap, Heart } from 'lucide-react';
 
 export const About: React.FC = () => {
   return (
-    <div className="bg-brand-gray">
+    <div className="bg-white">
       {/* Hero */}
       <div className="relative h-[60vh] w-full overflow-hidden">
         <div
@@ -17,7 +17,7 @@ export const About: React.FC = () => {
         <div className="relative h-full flex flex-col justify-center items-center text-center max-w-4xl mx-auto px-4 pt-20">
           <span className="text-brand-orange font-bold uppercase tracking-widest text-sm mb-6 bg-white/10 backdrop-blur-md px-4 py-1 rounded-full">Our Philosophy</span>
           <h1 className="text-5xl md:text-7xl font-serif font-medium text-white mb-6 italic">
-            La Dolce Vita of Riding
+            The Joy of Riding
           </h1>
           <p className="text-xl text-gray-100 font-light max-w-2xl">
             At ZEROOX, we believe every childhood deserves a spark of excitement under the sun. We build premium electric rides that are safe, silent, and endlessly fun.
